@@ -7,6 +7,13 @@ gem 'rails', '4.1.0'
 group :development do
 	gem 'sqlite3'
 end
+
+gem 'pg', '~> 0.17.0'
+
+  group :db do
+#    gem 'pg', '>= 0.11.0'
+  end
+
 group :assets do
 	# Use SCSS for stylesheets
 	gem 'sass-rails'
